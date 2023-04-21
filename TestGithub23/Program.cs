@@ -2,6 +2,13 @@
 
 Console.WriteLine("Hello, World!");
 
+ClassF f = new ClassF(99, "Frederik");
+Console.WriteLine(f.Name + " " + f.Age);
+
+using TestGithub23;
+
+Console.WriteLine("Hello, World!");
+
 ClassF F = new ClassF(25, "F");
 Console.WriteLine($"Name: {F.Name}");
 
